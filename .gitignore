@@ -66,3 +66,12 @@ credentials/
 .claude/pai_updates/
 .claude/pai_backups/
 .claude/.pai-sync-history
+
+# Local PAI runtime data and personal skills (do not sync upstream)
+.claude/agent-sessions.json
+.claude/history/raw-outputs/
+.claude/skills/battlecard-skill/
+.claude/skills/customer-update-deck/
+.claude/skills/presentation-generator/
+.claude/skills/vendor-ai-analysis/
+.claude/skills/vendor-research-skill/
